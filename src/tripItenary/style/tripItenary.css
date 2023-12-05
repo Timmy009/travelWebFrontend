@@ -1,0 +1,55 @@
+/* HotelItineraryComponent.css */
+
+.hotel-itinerary-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  margin-bottom: 20px; /* Add margin to create space between rows */
+}
+
+.hotel-itinerary-row {
+  display: flex;
+  background-color: #f1f1f1; /* Dark white background color */
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.column p {
+  font-weight: bold; /* Make the font bold for paragraphs inside columns */
+  font-size: 0.8em;
+}
+
+.logo {
+  width: 50px;
+  height: 3em;
+ margin-right: 3em;
+  border-radius: 50%;
+ margin-top: 1em;
+  display: flex;
+  /* Add styles for the logo column */
+}
+
+.line {
+  border-left: 1px solid #ccc; /* Add a vertical line */
+  height: 100%;
+}
+
+.cost {
+  /* Add styles for the cost column */
+}
+
+.change button {
+  background-color: #3A53AD; /* Blue background for the change button */
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+}
+
+.line {
+  font-size: 0.5em;
+  margin-top: 4em;
+}

@@ -1,0 +1,46 @@
+.vacation-plan-header {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+  
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+   padding-left: 2em;
+   padding-right: 2em;
+
+    background-color: aliceblue;
+    justify-content: space-between;
+  align-items: center;
+  
+  }
+  
+  .plan-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .subscribers {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .users-icon {
+    margin-right: 5px;
+  }
+  
+  .save-plan {
+    display: flex;
+    align-items: center;
+  }
+  
+  .save-icon {
+    margin-right: 5px;
+  }
+  
+  .save-text {
+    cursor: pointer;
+    color: #00f;
+  }
+  

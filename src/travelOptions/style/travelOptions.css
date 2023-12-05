@@ -1,0 +1,80 @@
+.travel-options-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .trip-type-selector {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .trip-type-button {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+  }
+  
+  .trip-type-button.active {
+    background-color: rgb(72, 72, 149); 
+    color: #fff;
+  }
+  
+  .location-date-travelers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .location-inputs input,
+  .date-inputs,
+  .travelers-input {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .location-inputs input,
+  .date-inputs span {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .date-inputs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .date-input span {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .travelers-input input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .save-button {
+    background-color: #4285f4; 
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 7em;
+    margin-left: 25em;
+  }
+  

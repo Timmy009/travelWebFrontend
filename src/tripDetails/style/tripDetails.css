@@ -1,0 +1,163 @@
+.trip-details-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    border-radius: 1em;
+  }
+  
+  .trip-details-left {
+    flex: 3;
+    padding: 20px;
+  }
+  
+  .trip-details-left textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .amount-det {
+    color: #0D6EFD;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  
+    margin-left: 10em;
+    font-weight: bolder;
+    padding: 0.4em;
+    background-color: rgb(225, 230, 247);
+    border-radius: 1em;
+    margin-bottom: 0.6em;
+  }
+  
+  .amount-det-last {
+    color: #0D6EFD;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+      
+        font-weight: bolder;
+       
+  }
+  .action-buttons {
+    display: flex;
+
+  }
+.action-buttons> button > img {
+  padding-right: 0.3em;
+}
+.share-icon {
+  margin-bottom: -0.3em;
+}
+  .action-buttons > button {
+    color: #8B8B8B;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  
+  .trip-details-right {
+    flex: 0;
+   margin-left: 1.9em;
+   
+   
+   
+    
+  }
+
+  .cost-breakdown {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: -1em;
+    
+
+  }
+  .payment-options {
+    margin-left: 6em;
+ 
+    
+  }
+.cost-item > span {
+  font-weight: lighter;
+}
+  .payment-button {
+    margin-top:-40em;
+   }
+  .cost-breakdown,
+  .payment-options {
+   
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .cost-item,
+  .total-amount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: white;
+    color: blue;
+    padding: 10px 20px;
+    border: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    border-width: 0.01em;
+    border-style:inset;
+    margin-top: 0em;
+  }
+  
+  button:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .trip-details-container {
+      flex-direction: column;
+    }
+  
+    .trip-details-left textarea {
+      height: 150px;
+    }
+  }
+  
+  .edit {
+    position: absolute;
+    margin-top: -3.4em;
+    margin-left: 31em;
+    font-weight: lighter;
+    color: #0D6EFD;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .edit > img {
+    width: 0.7em;
+  }
+
+  .t-area {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+
+  }

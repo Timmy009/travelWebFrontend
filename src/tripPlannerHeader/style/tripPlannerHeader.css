@@ -1,0 +1,29 @@
+.trip-planner-header {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 1em;
+    align-items: center;
+    margin-left: 6em;
+    padding: 0.5em;
+    margin-bottom: 2em;
+  }
+  
+  .my-trip {
+    color: #5A5A5A;
+
+font-family: Product Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  
+  .planner {
+    color: #0D6EFD;
+font-family: Canela Text Trial;
+font-size: 48px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+  }
+  

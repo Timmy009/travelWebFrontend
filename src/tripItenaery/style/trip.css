@@ -1,0 +1,80 @@
+
+.hotel-itinerary-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
+}
+
+.hotel-itinerary-row {
+  display: flex;
+  background-color: #f1f1f1; 
+  margin-bottom: 1em;
+}
+.trip {
+  
+  text-align: center;
+color: #8B8B8B;
+
+}
+
+
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.plus-icon {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+
+.add-container  {
+  margin: 10px;
+  border-style: dotted;
+  border-width: 0.1em;
+
+}
+.add-container > p {
+  color: #8B8B8B;
+  margin-top: 0em;
+}
+.plus-icon {
+  background-color: #8B8B8B;
+  color: white;
+  font-weight: bolder;
+  padding: 0.3em;
+  border-radius: 5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+.column {
+  
+  padding: 10px;
+}
+
+.column p {
+  font-weight: bold; 
+}
+
+.change button {
+  background-color: #3A53AD; 
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+}
+.logo > img {
+  margin-top: 1em;
+  border-radius: 0em;
+  width: 50px;
+  height: 3em;
+ margin-right: 3em;
+ 
+ margin-top: -0.5em;
+  display: flex;
+}

@@ -1,0 +1,13 @@
+.top-container {
+    display: flex; 
+   box-sizing: border-box;
+   margin: 0em;
+   padding: 0em;
+   
+  }
+  
+
+
+.full {
+  width: 64em;
+}

@@ -1,0 +1,71 @@
+/* CommentComponent.css */
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-initials {
+  width: 30px;
+  height: 30px;
+  background-color: purple; /* Circle background color */
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+background-color: rgb(218, 218, 218);
+border-radius: 2em;
+  margin-right: 10px;
+  position: relative;
+  padding: 1em;
+}
+
+.right-arrow {
+  font-size: 20px;
+  color: #3498db;
+  cursor: pointer;
+  margin-left: 45em;
+  position: absolute;
+  width: 30em;
+}
+
+.comment-details {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.user-meta {
+  margin-left: 10px;
+}
+
+
+
+.comment-text {
+  margin-top: 5px;
+  font-size: 0.8em;
+}
+
+.time-ago {
+  color: rgb(192, 200, 200);
+  font-size: 0.7em;
+}

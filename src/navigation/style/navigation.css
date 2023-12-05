@@ -1,0 +1,174 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: 0px;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+height: 4em;
+padding-left: 1em;
+
+  
+}
+
+.logo-search {
+  display: flex;
+  align-items: center;
+}
+
+.logo3 img {
+  width: 50px;
+  height: 3em;
+ margin-right: 3em;
+  border-radius: 50%;
+ margin-top: -0.5em;
+  display: flex;
+}
+
+.search {
+  position: relative;
+}
+
+.search input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 200px; 
+  transition: width 0.3s ease-in-out;
+  background-color: azure;
+ 
+}
+
+.search button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search.active input {
+  width: 300px; /* Adjust the expanded width as needed */
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-right: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #ffd700; /* Change color on hover */
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5em;
+}
+
+.icons svg {
+  font-size: 1.5em;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.plus-icon {
+  color: #4caf50; /* Green color for the plus icon */
+}
+
+.cart-container,
+.notification-container,
+.profile-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-count,
+.notification-count,
+.profile-tooltip {
+  background-color: #ffd700; /* Yellow color for the count and tooltip */
+  color: #333;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 16px;
+}
+
+.profile-tooltip {
+  padding: 8px;
+  white-space: nowrap;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.profile-container.hovered .profile-tooltip {
+  opacity: 1;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo3 img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .search input {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .icons {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,61 @@
+/* ActivityComponent.css */
+
+.activity-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  font-weight: 600;
+ 
+
+ 
+}
+
+
+.activity-row > div {
+  font-size: 0.7em;
+}
+.activity-row {
+  display: flex;
+  background-color: #f1f1f1; /* Dark white background color */
+  margin-bottom: 10px; /* Add margin to create space between rows */
+flex-shrink: inherit;
+padding-top: 1em;
+padding-bottom: -6em;
+}
+.head {
+  color: rgb(73, 73, 192);
+  font-size: 1em;
+}
+
+.column {
+  
+  padding: 10px;
+}
+
+.logo {
+  /* Add styles for the logo column */
+}
+
+.description {
+  /* Add styles for the description column */
+  
+  flex: 2;
+}
+
+.cost {
+  /* Add styles for the cost column */
+}
+
+.change button {
+  background-color: rgb(32, 32, 102); /* Blue background for the change button */
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.plus,
+.arrow-up,
+.cancel {
+  cursor: pointer;
+}
